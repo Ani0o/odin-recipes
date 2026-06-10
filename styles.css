@@ -1,6 +1,9 @@
+body {
+    font-family: 'Times New Roman', serif;
+}
+
 #home-heading {
     text-align: center;
-    font-family: 'Times New Roman', serif;
 }
 
 .recipe-list {
