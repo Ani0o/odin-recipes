@@ -2,10 +2,43 @@ body {
     font-family: 'Times New Roman', serif;
 }
 
-#home-heading {
+#home-heading,
+#burger-heading,
+#cake-heading,
+#lasagna-heading,
+#pizza-heading,
+#ramen-heading {
     text-align: center;
+}
+
+#burger-img,
+#cake-img,
+#lasagna-img,
+#pizza-img,
+#ramen-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.home-link {
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    color: rgb(255, 0, 0);
 }
 
 .recipe-list {
     margin: 5px;
+}
+
+.description {
+    background-color: rgb(229, 239, 248);
+}
+
+.ingredients {
+    background-color: rgb(210, 244, 244);
+}
+
+.steps {
+    background-color: rgb(194, 240, 225);
 }
